@@ -47,7 +47,7 @@ public class EmailUtility {
         // Create a session with the properties
         Session session = Session.getInstance(props, new Authenticator() {
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("allonlineshops52@gmail.com", "fiis nvmn zngd bdou");
+                return new PasswordAuthentication("Abc@gmail.com", "abcd efgh igkl mnop");
                 //place your emailid("Abc@gmail.com") and app password("abcd efgh igkl mnop")
                 //if u don't know how to genrate app password then search on google or youtube "how to genrate app password in gmail"
                
@@ -57,7 +57,7 @@ public class EmailUtility {
         try {
             // Create a MimeMessage
             Message message = new MimeMessage(session);
-            message.setFrom(new InternetAddress("allonlineshops52@gmail.com"));//place your email
+            message.setFrom(new InternetAddress("Abc@gmail.com"));//place your email
             message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(to));
             message.setSubject("Verification OTP");
             message.setText("Your OTP for registration is: " + otp);
