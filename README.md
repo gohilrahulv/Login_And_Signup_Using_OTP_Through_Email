@@ -1,6 +1,6 @@
 Secure Login and Signup Page with OTP Authentication and Session Management.Developed a secure web application login and signup page using Java with Implemented OTP authentication for user account verification And Session Management for login and logout.
 
-in the file EmailUtility.java change your email Abc@gmail.com to your email at line 50 and 60;and change your app password acording to your app password at line 50
+In the file EmailUtility.java change your email Abc@gmail.com to your email at line 50 and 60;and change your app password acording to your app password at line 50
 
 ***********************************************************************************************************************************
 ![1](https://github.com/gohilrahulv/Login_And_Signup_Using_OTP_Through_Email/assets/118652650/85e33c6b-316e-4424-8190-9875f46f34bd)
